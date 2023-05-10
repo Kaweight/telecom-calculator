@@ -1,0 +1,61 @@
+.calculator {
+  margin: 2.5em;
+  padding: 2em;
+  border: 1px solid #c5d212;
+  border-radius: 0.5em;
+  max-width: 600px;
+
+  &__title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c5d212;
+    margin-bottom: 0.5em;
+  }
+
+  &__subtitle {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 0.5em;
+  }
+
+  &__select {
+    padding: 0.5em;
+    border: 1px solid #c5d212;
+    background-color: #001025;
+    color: #ffffff;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+
+  &__checkbox {
+    margin-right: 0.5em;
+    accent-color: #c5d212;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+
+  &__info {
+    color: #ffffff;
+    margin-bottom: 1.5em;
+
+    span:first-of-type {
+      font-weight: bold;
+      font-size: 2rem;
+      word-wrap: break-word;
+    }
+  }
+
+  &__price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #c5d212;
+  }
+}

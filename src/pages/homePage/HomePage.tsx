@@ -1,14 +1,14 @@
 import { useState } from "react";
 import data from "../../data.json";
-import "./homePage.scss";
-import { PricingData } from "../../components/calculator/types/Calculator";
-import Calculator from "../../components/calculator/Calculator";
+import styles from "./HomePage.module.scss";
+import { PricingData } from "../../features/calculator/types/Calculator";
+import Calculator from "../../features/calculator/Calculator";
 
 export const HomePage = () => {
   const [pricingData, setPricingData] = useState<PricingData>(data);
 
   return (
-    <div className="home-page">
+    <div className={styles["home-page"]}>
       <Calculator pricingData={pricingData} />
     </div>
   );

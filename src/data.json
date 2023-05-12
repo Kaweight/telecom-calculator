@@ -2,27 +2,33 @@
   "prices": [
     {
       "year": 2023,
-      "internet": 39,
-      "tv": 49,
-      "internetAndTv": 79,
-      "phoneSubscription": 64,
-      "decoder4K": 29
+      "data": {
+        "internet": 39,
+        "tv": 49,
+        "internetAndTv": 79,
+        "phoneSubscription": 64,
+        "decoder4K": 29
+      }
     },
     {
       "year": 2024,
-      "internet": 49,
-      "tv": 49,
-      "internetAndTv": 89,
-      "phoneSubscription": 64,
-      "decoder4K": 29
+      "data": {
+        "internet": 49,
+        "tv": 49,
+        "internetAndTv": 89,
+        "phoneSubscription": 64,
+        "decoder4K": 29
+      }
     },
     {
       "year": 2025,
-      "internet": 59,
-      "tv": 59,
-      "internetAndTv": 99,
-      "phoneSubscription": 64,
-      "decoder4K": 29
+      "data": {
+        "internet": 59,
+        "tv": 59,
+        "internetAndTv": 99,
+        "phoneSubscription": 64,
+        "decoder4K": 29
+      }
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/telecom-calculator/static/css/main.d3af9499.css",
+    "main.js": "/telecom-calculator/static/js/main.425340c6.js",
+    "static/js/787.93ac35b3.chunk.js": "/telecom-calculator/static/js/787.93ac35b3.chunk.js",
+    "index.html": "/telecom-calculator/index.html",
+    "main.d3af9499.css.map": "/telecom-calculator/static/css/main.d3af9499.css.map",
+    "main.425340c6.js.map": "/telecom-calculator/static/js/main.425340c6.js.map",
+    "787.93ac35b3.chunk.js.map": "/telecom-calculator/static/js/787.93ac35b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3af9499.css",
+    "static/js/main.425340c6.js"
+  ]
+}
